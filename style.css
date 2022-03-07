@@ -1,0 +1,178 @@
+*{
+padding: 0;
+margin: 0; 
+box-sizing: border-box;  
+font-family: Arial, Helvetica, sans-serif; 
+}
+
+body, header, nav, main,article, figure{
+    display: block;
+}
+
+body{
+font-size: 1rem;
+color: rgb(255, 253, 253);
+background: #ffdec3;
+background: radial-gradient(circle, rgba(255,222,195,1) 0%, rgba(161,137,153,1) 100%);
+}
+
+header{
+    width: 100%;
+    height: auto;
+} 
+h1,h2,p{
+    width: 100%;
+    height: 60px;
+    color: #383838;
+    padding-top: 20px;
+    padding-left: 8%;
+    text-align: left;
+}
+h3{
+    color: #ffffff;
+    font-size: 3rem;
+    text-align: center;
+}
+h5{
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 5rem;
+    
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color:radial-gradient(circle, rgba(255,222,195,1) 0%, rgba(161,137,153,1) 100%);
+    margin-top: 0%;
+}
+nav ul{
+    padding-top: 10px;
+    text-align: center;
+    padding-left: 30px;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+nav ul li a, nav ul li a:link, nav ul li a:visited{
+ 
+    width: 200px;
+    height: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    padding-top: 8px;
+    background: #545454;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 1rem;
+}
+main{
+    position: relative;
+}
+
+section#PanBase{
+    width: 760px;
+    height: 600px;
+    background: radial-gradient(circle, rgb(68, 66, 65) 0%, rgb(0, 0, 0) 100%);
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    left: 25%;
+    border-radius: 2rem;
+
+}
+section#Sabores{
+    width: 760px;
+    height: 600px;
+    background: radial-gradient(circle, rgb(68, 66, 65) 0%, rgb(0, 0, 0) 100%);
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    left: 25%;
+    border-radius: 2rem;
+
+}
+section#Adornos{
+    width: 760px;
+    height: 600px;
+    background: radial-gradient(circle, rgb(68, 66, 65) 0%, rgb(0, 0, 0) 100%);
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    left: 25%;
+    border-radius: 2rem;
+
+}
+section#Seleccion{
+    width: 760px;
+    height: 700px;
+    background: radial-gradient(circle, rgb(68, 66, 65) 0%, rgb(0, 0, 0) 100%);
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    left: 25%;
+    border-radius: 2rem;
+
+}
+section#Compra{
+    width: 760px;
+    height: 600px;
+    background: radial-gradient(circle, rgb(68, 66, 65) 0%, rgb(0, 0, 0) 100%);
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    left: 25%;
+    border-radius: 2rem;
+
+}
+
+
+
+#Seleccion{
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 15%;
+        
+}
+
+#compra{
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 15%;
+        
+}
+
+#pastel{
+    width: 300px;
+    height: 200px;
+    float: right;
+    position:relative;
+    border-radius: 2rem;
+}
+#pas{
+    
+    width: 300px;
+    height: 200px;
+    float: right;
+    position:relative;
+    border-radius: 2rem;
+}
+table{
+    justify-content: center;
+    text-align:left;
+    padding-top: 10%;
+    padding-left: 5%;
+        
+}
+#tel{
+    position: relative;
+    display: flex;
+}
